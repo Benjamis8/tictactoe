@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>TicTacToe</title>
+</head>
+<body>
+    <div id="container">
+        <h1 id="title">TicTacToe</h1>
+        <div id="turnIndicator">Current Turn: <span id="currentPlayer">X</span></div>
+        <div id="score">X: 0 - O: 0</div>
+        <div id="board"></div>
+        <div id="controls">
+            <button id="prev" disabled>Prev</button>
+            <button id="next" disabled>next</button>
+            <button id="reset">reset</button>
+        </div>
+        <div id="winnerMessage"></div>
+    </div>
+    <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.4.0/dist/confetti.browser.min.js"></script>
+</body>
+</html>
